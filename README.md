@@ -256,34 +256,6 @@ See Laravel Deployment Documentation for production deployment options:
 php artisan test
 ```
 
-## Contributing
-
-This is a group project. Contributions from all team members are welcome.
-
-### How to Contribute
-
-1. Clone the repository
-2. Create or switch to your assigned branch (git checkout ui or git checkout docs)
-3. Make your changes
-4. Commit your changes (git commit -m 'Add feature description')
-5. Push to your branch (git push origin your-branch)
-6. Open a Pull Request
-
-### Branch Structure
-- master - Main production branch (protected)
-- ui - UI/UX improvements
-- docs - Documentation and screenshots
-- test - Testing and quality assurance
-
-### Areas for Contribution
-
-- UI/UX Improvements
-- Documentation
-- Screenshots
-- Tests
-- Bug Fixes
-- New Features
-
 ## License
 
 This project is created for educational purposes as a final project.
