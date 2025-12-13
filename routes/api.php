@@ -16,7 +16,6 @@ Route::middleware(['auth:sanctum'])->group(function () {
     Route::resource('tickets', TicketController::class)->except(['create', 'edit']);
 
     // COMMENT ENDPOINT (Nested Resource)
-    // POST /api/tickets/{ticket}/comments
     Route::post('tickets/{ticket}/comments', [CommentController::class, 'store'])->name('comments.store');
 });
 

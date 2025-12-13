@@ -25,7 +25,7 @@ class UserSeeder extends Seeder
 
         // FACULTY ACCOUNT (Role: faculty) - Mid-level resolver
         User::firstOrCreate(
-            ['email' => 'faculty@school.edu'],
+            ['email' => 'faculty@gmail.com'],
             [
                 'name' => 'Faculty Account',
                 'password' => Hash::make('password'),
