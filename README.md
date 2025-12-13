@@ -16,7 +16,7 @@ A full-stack IT support ticket management system built with Laravel 12, Inertia.
 - **Faculty** - Create tickets and manage assigned tickets
 - **Admins** - Full access to all tickets and user management
 
-### Advanced Features
+### Features
 - Search and filter tickets by subject, description, creator, status, or priority
 - Smart sorting with high priority tickets first and closed tickets at the bottom
 - Real-time updates
@@ -255,34 +255,6 @@ See Laravel Deployment Documentation for production deployment options:
 ```bash
 php artisan test
 ```
-
-## Contributing
-
-This is a group project. Contributions from all team members are welcome.
-
-### How to Contribute
-
-1. Clone the repository
-2. Create or switch to your assigned branch (git checkout ui or git checkout docs)
-3. Make your changes
-4. Commit your changes (git commit -m 'Add feature description')
-5. Push to your branch (git push origin your-branch)
-6. Open a Pull Request
-
-### Branch Structure
-- master - Main production branch (protected)
-- ui - UI/UX improvements
-- docs - Documentation and screenshots
-- test - Testing and quality assurance
-
-### Areas for Contribution
-
-- UI/UX Improvements
-- Documentation
-- Screenshots
-- Tests
-- Bug Fixes
-- New Features
 
 ## License
 
