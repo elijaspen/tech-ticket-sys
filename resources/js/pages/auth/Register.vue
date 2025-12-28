@@ -9,7 +9,6 @@ import AuthBase from '@/layouts/AuthLayout.vue';
 import { login } from '@/routes';
 import { store } from '@/routes/register';
 import { Form, Head } from '@inertiajs/vue3';
-import {DropdownMenu, DropdownMenuContent} from "@/components/ui/dropdown-menu";
 </script>
 
 <template>
