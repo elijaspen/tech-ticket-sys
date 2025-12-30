@@ -40,9 +40,9 @@
         <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
 
         @if(app()->environment('production'))
-            {{-- Production: Load pre-built assets directly --}}
-            <link rel="stylesheet" href="{{ asset('build/assets/app-CFaaeqjY.css') }}">
-            <script type="module" src="{{ asset('build/assets/app-BROu12nU.js') }}"></script>
+            {{-- Production: Load pre-built assets directly with dynamic URL --}}
+            <link rel="stylesheet" href="{{ url('build/assets/app-CFaaeqjY.css') }}">
+            <script type="module" src="{{ url('build/assets/app-BROu12nU.js') }}"></script>
         @else
             {{-- Development: Use Vite --}}
             @vite(['resources/js/app.ts', "resources/js/pages/{$page['component']}.vue"])
