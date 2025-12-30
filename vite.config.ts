@@ -5,6 +5,14 @@ import laravel from 'laravel-vite-plugin';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+    base: '/',
+    build: {
+        manifest: true,
+        outDir: 'public/build',
+        rollupOptions: {
+            input: 'resources/js/app.ts',
+        },
+    },
     plugins: [
         laravel({
             input: ['resources/js/app.ts'],
